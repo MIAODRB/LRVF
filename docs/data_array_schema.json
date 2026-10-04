@@ -1,0 +1,713 @@
+{
+  "figure2/cache/events.npz": {
+    "lon0": {
+      "dtype": "float64",
+      "shape": [
+        1026786
+      ]
+    },
+    "lat0": {
+      "dtype": "float64",
+      "shape": [
+        1026786
+      ]
+    },
+    "lon1": {
+      "dtype": "float64",
+      "shape": [
+        1026786
+      ]
+    },
+    "lat1": {
+      "dtype": "float64",
+      "shape": [
+        1026786
+      ]
+    },
+    "az": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "length_m": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "score": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    }
+  },
+  "figure2/cache/grid_6deg.npz": {
+    "cnt": {
+      "dtype": "int64",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "Rbar": {
+      "dtype": "float64",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "mean_az": {
+      "dtype": "float64",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "pmean": {
+      "dtype": "float64",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "cell": {
+      "dtype": "float64",
+      "shape": []
+    }
+  },
+  "figure3/figure3_event_cache.npz": {
+    "event_id": {
+      "dtype": "int32",
+      "shape": [
+        1026786
+      ]
+    },
+    "latitude": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "bearing": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "alpha": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "poleward_component": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "nac_code": {
+      "dtype": "int32",
+      "shape": [
+        1026786
+      ]
+    },
+    "nac_ids": {
+      "dtype": "|S80",
+      "shape": [
+        169857
+      ]
+    },
+    "source_record_count": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ]
+    }
+  },
+  "figure4/figure4_outputs/nac_metadata_cache.npz": {
+    "product_id": {
+      "dtype": "|S13",
+      "shape": [
+        169857
+      ]
+    },
+    "matched": {
+      "dtype": "bool",
+      "shape": [
+        169857
+      ]
+    },
+    "incidence": {
+      "dtype": "float32",
+      "shape": [
+        169857
+      ]
+    },
+    "resolution": {
+      "dtype": "float32",
+      "shape": [
+        169857
+      ]
+    },
+    "scaled_width": {
+      "dtype": "float32",
+      "shape": [
+        169857
+      ]
+    },
+    "scaled_height": {
+      "dtype": "float32",
+      "shape": [
+        169857
+      ]
+    },
+    "frame": {
+      "dtype": "|S5",
+      "shape": [
+        169857
+      ]
+    },
+    "line_samples": {
+      "dtype": "int32",
+      "shape": [
+        169857
+      ]
+    },
+    "image_lines": {
+      "dtype": "int32",
+      "shape": [
+        169857
+      ]
+    },
+    "instrument_mode": {
+      "dtype": "int16",
+      "shape": [
+        169857
+      ]
+    },
+    "data_quality": {
+      "dtype": "int16",
+      "shape": [
+        169857
+      ]
+    },
+    "emission": {
+      "dtype": "float32",
+      "shape": [
+        169857
+      ]
+    },
+    "phase": {
+      "dtype": "float32",
+      "shape": [
+        169857
+      ]
+    },
+    "source_record_count": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ]
+    },
+    "duplicate_hits_after_first_match": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ]
+    },
+    "parsed_hits": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ]
+    }
+  },
+  "figure5/figure5_outputs/figure5_event_terrain_cache.npz": {
+    "event_index": {
+      "dtype": "int32",
+      "shape": [
+        2407
+      ]
+    },
+    "x": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "y": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "latitude": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "bearing": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "downslope_aspect": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "delta": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "slope": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "elevation": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "curvature": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "score": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "track_m": {
+      "dtype": "float32",
+      "shape": [
+        2407
+      ]
+    },
+    "local_nac_code": {
+      "dtype": "int16",
+      "shape": [
+        2407
+      ]
+    },
+    "nac_ids": {
+      "dtype": "|S13",
+      "shape": [
+        14
+      ]
+    }
+  },
+  "figure5/figure5_outputs/figure5_nac_footprints.npz": {
+    "product_id": {
+      "dtype": "|S13",
+      "shape": [
+        14
+      ]
+    },
+    "matched": {
+      "dtype": "bool",
+      "shape": [
+        14
+      ]
+    },
+    "resolution": {
+      "dtype": "float32",
+      "shape": [
+        14
+      ]
+    },
+    "incidence": {
+      "dtype": "float32",
+      "shape": [
+        14
+      ]
+    },
+    "emission": {
+      "dtype": "float32",
+      "shape": [
+        14
+      ]
+    },
+    "phase": {
+      "dtype": "float32",
+      "shape": [
+        14
+      ]
+    },
+    "north_azimuth": {
+      "dtype": "float32",
+      "shape": [
+        14
+      ]
+    },
+    "subsolar_azimuth": {
+      "dtype": "float32",
+      "shape": [
+        14
+      ]
+    },
+    "line_samples": {
+      "dtype": "int32",
+      "shape": [
+        14
+      ]
+    },
+    "image_lines": {
+      "dtype": "int32",
+      "shape": [
+        14
+      ]
+    },
+    "corner_lat": {
+      "dtype": "float64",
+      "shape": [
+        14,
+        4
+      ]
+    },
+    "corner_lon": {
+      "dtype": "float64",
+      "shape": [
+        14,
+        4
+      ]
+    }
+  },
+  "figure5/figure5_outputs/figure5_panel_a_terrain.npz": {
+    "x": {
+      "dtype": "float32",
+      "shape": [
+        1219
+      ]
+    },
+    "y": {
+      "dtype": "float32",
+      "shape": [
+        1201
+      ]
+    },
+    "elevation": {
+      "dtype": "float32",
+      "shape": [
+        1201,
+        1219
+      ]
+    },
+    "slope": {
+      "dtype": "float32",
+      "shape": [
+        1201,
+        1219
+      ]
+    },
+    "aspect": {
+      "dtype": "float32",
+      "shape": [
+        1201,
+        1219
+      ]
+    },
+    "arrow_x": {
+      "dtype": "float32",
+      "shape": [
+        209
+      ]
+    },
+    "arrow_y": {
+      "dtype": "float32",
+      "shape": [
+        209
+      ]
+    },
+    "arrow_bearing": {
+      "dtype": "float32",
+      "shape": [
+        209
+      ]
+    },
+    "arrow_downslope": {
+      "dtype": "float32",
+      "shape": [
+        209
+      ]
+    },
+    "arrow_delta": {
+      "dtype": "float32",
+      "shape": [
+        209
+      ]
+    }
+  },
+  "figure5/figure5_outputs/figure5_panel_b_distribution.npz": {
+    "angle_centers_deg": {
+      "dtype": "float64",
+      "shape": [
+        36
+      ]
+    },
+    "observed_density": {
+      "dtype": "float64",
+      "shape": [
+        36
+      ]
+    },
+    "null_mean": {
+      "dtype": "float32",
+      "shape": [
+        36
+      ]
+    },
+    "null_ci_low": {
+      "dtype": "float32",
+      "shape": [
+        36
+      ]
+    },
+    "null_ci_high": {
+      "dtype": "float32",
+      "shape": [
+        36
+      ]
+    },
+    "bootstrap_D": {
+      "dtype": "float32",
+      "shape": [
+        3000
+      ]
+    }
+  },
+  "figure6/fig4_data.npz": {
+    "lat": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "az": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "length": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "score": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "camera": {
+      "dtype": "<U1",
+      "shape": [
+        1026786
+      ]
+    },
+    "matched": {
+      "dtype": "bool",
+      "shape": [
+        1026786
+      ]
+    },
+    "inc": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "res": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    },
+    "summed": {
+      "dtype": "int8",
+      "shape": [
+        1026786
+      ]
+    },
+    "plat": {
+      "dtype": "float32",
+      "shape": [
+        1053697
+      ]
+    },
+    "plon": {
+      "dtype": "float32",
+      "shape": [
+        1053697
+      ]
+    },
+    "pinc": {
+      "dtype": "float32",
+      "shape": [
+        1053697
+      ]
+    },
+    "pres": {
+      "dtype": "float32",
+      "shape": [
+        1053697
+      ]
+    },
+    "psum": {
+      "dtype": "int8",
+      "shape": [
+        1053697
+      ]
+    },
+    "lon": {
+      "dtype": "float32",
+      "shape": [
+        1026786
+      ]
+    }
+  },
+  "figure6/fig6v4_field.npz": {
+    "field": {
+      "dtype": "float64",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "field_disp": {
+      "dtype": "float64",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "nodata": {
+      "dtype": "bool",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "cls": {
+      "dtype": "int8",
+      "shape": [
+        30,
+        60
+      ]
+    },
+    "cell": {
+      "dtype": "float64",
+      "shape": []
+    },
+    "lat_c": {
+      "dtype": "float64",
+      "shape": [
+        30
+      ]
+    },
+    "lon_c": {
+      "dtype": "float64",
+      "shape": [
+        60
+      ]
+    },
+    "vmax": {
+      "dtype": "float64",
+      "shape": []
+    },
+    "sig_lat": {
+      "dtype": "float64",
+      "shape": []
+    },
+    "sig_lon": {
+      "dtype": "float64",
+      "shape": []
+    },
+    "p_lat": {
+      "dtype": "float64",
+      "shape": [
+        30
+      ]
+    },
+    "p_mu": {
+      "dtype": "float64",
+      "shape": [
+        30
+      ]
+    },
+    "p_lo": {
+      "dtype": "float64",
+      "shape": [
+        30
+      ]
+    },
+    "p_hi": {
+      "dtype": "float64",
+      "shape": [
+        30
+      ]
+    },
+    "p_n": {
+      "dtype": "int64",
+      "shape": [
+        30
+      ]
+    },
+    "regime": {
+      "dtype": "float64",
+      "shape": [
+        30
+      ]
+    },
+    "n_hq": {
+      "dtype": "int64",
+      "shape": []
+    },
+    "n_total": {
+      "dtype": "int64",
+      "shape": []
+    }
+  },
+  "solar_per_image.npz": {
+    "nac_ids": {
+      "dtype": "|S13",
+      "shape": [
+        169857
+      ]
+    },
+    "solar_az": {
+      "dtype": "float64",
+      "shape": [
+        169857
+      ]
+    },
+    "north_az": {
+      "dtype": "float64",
+      "shape": [
+        169857
+      ]
+    },
+    "subsolar_az": {
+      "dtype": "float64",
+      "shape": [
+        169857
+      ]
+    }
+  }
+}

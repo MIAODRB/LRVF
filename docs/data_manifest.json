@@ -1,0 +1,263 @@
+{
+  "description": "Frozen reproduction inputs and optional upstream data; no claim of public deposition.",
+  "created": "2026-10-01",
+  "files": [
+    {
+      "path": "CUMINDEX_reference.LBL",
+      "bytes": 31611,
+      "sha256": "a944cea87f6e8930e8867d4c690c69e1548f237ab0e0c6d4c87b12d3effe14ba",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "cumindex_solar_extract.csv.gz",
+      "bytes": 80678422,
+      "sha256": "429f7a03a0d6105c6a16d29423de248d34ef76ecce47ce263e12224a8a2dbbaa",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure2/cache/density_0p25.npy",
+      "bytes": 4147328,
+      "sha256": "22154383949c2fe8267d74436c317a39f38a14c7e6490f461963becd5cd21cbb",
+      "plot_figures": [
+        2
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure2/cache/events.npz",
+      "bytes": 39511277,
+      "sha256": "dd66839803576b8cbb5a57541a05abfe101d1a9aa6951e24cd6646d66f41b9ef",
+      "plot_figures": [
+        2
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure2/cache/grid_6deg.npz",
+      "bytes": 58836,
+      "sha256": "6428e3e3569bad91e1353ca5ed70956c41b8cfa5396ef59909a97e087c3e63d4",
+      "plot_figures": [
+        2
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure2/cache/nac_crop_0.npy",
+      "bytes": 1048704,
+      "sha256": "5735cea87398a7375c4dad0a685f82eaad5733a76501f49d5c474ac9e9f30688",
+      "plot_figures": [
+        2
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure2/cache/nac_crop_0_origin.npy",
+      "bytes": 144,
+      "sha256": "d69d244bdc07016fd93731945124b9f9f9f9cb4a6e2208faf9601d18e30b96d6",
+      "plot_figures": [
+        2
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure2/cache/nac_ids.npy",
+      "bytes": 15989361,
+      "sha256": "b5aaea3d39650884d72937ab36c1a24bb6064e22233d34ba3078465c40bab1eb",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure2/cache/panelb_dem.npy",
+      "bytes": 4390128,
+      "sha256": "181dbfcb17bf638ba9590cc77e202c0e05dc6c91e37149c12f1c7275c029b69c",
+      "plot_figures": [
+        2
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure2/figure2_zonal_strip_source_data.csv",
+      "bytes": 902,
+      "sha256": "77f00b206502196486eba889cdc99022be895fcbcca5e9b00b245a48bd993f61",
+      "plot_figures": [
+        2
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure3/figure3_event_cache.npz",
+      "bytes": 17236002,
+      "sha256": "11a3af95055f346e72421a6a1471bca87d01008575784e9ec852e9a9ab3e0f70",
+      "plot_figures": [
+        3,
+        4
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure4/figure4_outputs/nac_metadata_cache.npz",
+      "bytes": 2129392,
+      "sha256": "d2521cf18ef5e6565c1d84e5ef6b25f7a4f8cfe746266606a5d565c73dbe45cc",
+      "plot_figures": [
+        4
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure5/data/NAC_DTMS_360/NAC_DTMS_360.DBF",
+      "bytes": 891174,
+      "sha256": "bd02df6a30667536304676d3f558620d861d0ec9db81b9f1e52bfc80659b75ff",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/NAC_DTMS_360/NAC_DTMS_360.PRJ",
+      "bytes": 147,
+      "sha256": "4a88f05b0519f013806cb7d6e0709746a5957f4a8d41dcc7e578184ab1033232",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/NAC_DTMS_360/NAC_DTMS_360.SHP",
+      "bytes": 5898472,
+      "sha256": "79182064fe5a5c25652d33357f54c528501f35898e8c0d103bd29cc7e00decc7",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/NAC_DTMS_360/NAC_DTMS_360.SHP.XML",
+      "bytes": 14558,
+      "sha256": "92f5c95a82fe4f287a174b2020e63e9a1d7bd6c780c4ee5241cef5535bfaea19",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/NAC_DTMS_360/NAC_DTMS_360.SHX",
+      "bytes": 5380,
+      "sha256": "f616402edd4b66541e717c66d1ca0da3cbe0cd85a77c97aa6426ff63eee2595c",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/NAC_DTMS_360/NAC_DTMS_README.TXT",
+      "bytes": 2471,
+      "sha256": "da6f8ed25723f283c636ec1dd49c2eb27816a82e179bb82cfb9600a2f123834f",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/NAC_DTM_CHAPLYGIN.LBL",
+      "bytes": 3636,
+      "sha256": "0243be6d708d2e494e1922dd2d1d393b6d8b515ded68de4fad82face95f2166b",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/NAC_DTM_CHAPLYGIN.TIF",
+      "bytes": 95560831,
+      "sha256": "4db1c5d08b89af7421c7c8f0c2db4aca837c86a9a2cfc959cbed2ce5637420f5",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/data/README.md",
+      "bytes": 1207,
+      "sha256": "b6f4dfc5cd016618c09427b55dea689fc4f65fa18f86147a7284d4046037652a",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/figure5_outputs/figure5_event_terrain_cache.npz",
+      "bytes": 95636,
+      "sha256": "17fb4f6a3b2d84b042cfdcd13ea0233287eecf0a51c1a772ed6f6b713517c901",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/figure5_outputs/figure5_nac_footprints.npz",
+      "bytes": 3196,
+      "sha256": "b0027a2bf7d2dccd6df92c1d82670cfa802a405e70d31d74bd4d75891bc3220d",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/figure5_outputs/figure5_panel_a_terrain.npz",
+      "bytes": 13124484,
+      "sha256": "2db3bfdf694b23b9d81ad2016c6e15d75c917e608ce1c5d0997ec2d0d6502566",
+      "plot_figures": [
+        5
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure5/figure5_outputs/figure5_panel_b_distribution.npz",
+      "bytes": 11931,
+      "sha256": "55b3020bdb82087002e76d5c00608f8f8e4ad3b6f50d18d2cd902bd5f931bc1a",
+      "plot_figures": [
+        5
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure5/figure5_outputs/figure5_panel_b_statistics.csv",
+      "bytes": 410,
+      "sha256": "444dbd2c9d5fffac56b90a41f73d648423d992f5161fa73f0db748ca3b27cb6b",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "figure5/figure5_outputs/figure5_panel_c_conditional_odds.csv",
+      "bytes": 289,
+      "sha256": "2d5327019340cc70763afa1cc5628237c9c430133ad3bafe2ee032e68234a507",
+      "plot_figures": [
+        5
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure5/figure5_outputs/figure5_summary.json",
+      "bytes": 1479,
+      "sha256": "2b9afe4c94803ee97363e17e873466dbedc10742d7d62ead1f613d56fce8b7e7",
+      "plot_figures": [
+        5
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure6/fig4_data.npz",
+      "bytes": 26670092,
+      "sha256": "ba75856e4905c01f1c7908640ca353e425b5592eb6af2afe6d51e7af35077240",
+      "plot_figures": [
+        4
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure6/fig6v4_field.npz",
+      "bytes": 25975,
+      "sha256": "f67f0d928c304f93e2fc3670c74dd5b63ee1d7d6fef52397b917d806c8782176",
+      "plot_figures": [
+        6
+      ],
+      "role": "frozen_plot_input"
+    },
+    {
+      "path": "figure6/fig6v4_source_data.csv",
+      "bytes": 135054,
+      "sha256": "15b63cba87f18efa5f7451b38d23488c6159057840012e80c32822aea1885ac0",
+      "plot_figures": [],
+      "role": "upstream_or_provenance"
+    },
+    {
+      "path": "solar_per_image.npz",
+      "bytes": 2737556,
+      "sha256": "6edc241e27b3661c48b7123f15e196a06322804c500a71ea37d3fa7a4c0fcffe",
+      "plot_figures": [
+        4
+      ],
+      "role": "frozen_plot_input"
+    }
+  ]
+}

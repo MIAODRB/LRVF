@@ -1,0 +1,4 @@
+# Additional packages for raw catalogue extraction.
+-r requirements.txt
+geopandas==1.2.0
+pyogrio==0.13.0

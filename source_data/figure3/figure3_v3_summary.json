@@ -1,0 +1,15 @@
+{
+  "R": 0.011164225046597077,
+  "mean_bearing_deg": 202.8955767793491,
+  "rayleigh_z": 127.97852581205358,
+  "NS_profile_r": 0.8896396086381588,
+  "r_lat_range": [
+    5.0,
+    75.0
+  ],
+  "poleward_fraction_mid": 0.5477726772608746,
+  "reversal_north": 63.48970201322201,
+  "reversal_south": 66.66960727698721,
+  "bootstrap_replicates": 800,
+  "bootstrap_cluster": "nac_id"
+}

@@ -1,0 +1,34 @@
+{
+  "events_total": 1026786,
+  "nac_images_total": 169857,
+  "metadata_match_events": 1026786,
+  "metadata_match_unique_images": 169857,
+  "core_events": 456253,
+  "core_images": 76194,
+  "core_fraction_events": 0.4443506241806959,
+  "mid_latitude_band_deg": [
+    30.0,
+    60.0
+  ],
+  "high_latitude_band_deg": [
+    68.0,
+    76.0
+  ],
+  "frozen_reversal_interval_deg": [
+    63.48970201322201,
+    66.66960727698721
+  ],
+  "all_curve_crossing_deg": 65.66364536429577,
+  "core_curve_crossing_deg": 64.93935560257674,
+  "bootstrap_replicates": 800,
+  "bootstrap_cluster": "nac_id",
+  "core_rules": {
+    "incidence_deg": [
+      35.0,
+      75.0
+    ],
+    "resolution_m_per_pixel_max": 1.0,
+    "line_samples": 5064,
+    "score_min": 0.5713289
+  }
+}

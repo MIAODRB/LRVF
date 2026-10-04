@@ -1,0 +1,45 @@
+{
+  "dtm_product": "NAC_DTM_CHAPLYGIN",
+  "dtm_pixel_scale_m": 5.0,
+  "dtm_analysis_scale_m": 25.0,
+  "dtm_valid_fraction": 0.8105174605363668,
+  "terrain_matched_events_before_quality_filter": 2980,
+  "core_events": 2407,
+  "core_nac_images": 14,
+  "quality_rules": {
+    "minimum_slope_deg": 5.0,
+    "minimum_detection_score": 0.5,
+    "minimum_track_length_m": 10.0,
+    "maximum_nac_resolution_m_per_pixel": 1.2,
+    "incidence_angle_deg": [
+      35.0,
+      75.0
+    ],
+    "line_samples": 5064
+  },
+  "downslope_alignment": {
+    "D": 0.764203667640686,
+    "ci_low": 0.6731131561019005,
+    "ci_high": 0.8257807657197089,
+    "median_delta_deg": 15.54296875,
+    "fraction_delta_le_30": 0.7428334025758205,
+    "bootstrap_cluster": "nac_id",
+    "bootstrap_replicates": 3000,
+    "null_model": "independent random rotation of each NAC-image cluster",
+    "null_replicates": 1500
+  },
+  "panel_c_estimand": "within-NAC conditional event odds ratio, pole-facing/equator-facing",
+  "panel_c_controls": [
+    "NAC image stratum",
+    "slope bin",
+    "elevation tercile",
+    "curvature tercile",
+    "nominal footprint opportunity sampled at 50 m"
+  ],
+  "panel_c_limitation": "Nominal NAC footprint opportunity is not effective searchable area; the estimate is observation-conditioned and not a lunar activity rate.",
+  "panel_a_window_y_m": [
+    -129841.60986386666,
+    -117841.60986386666
+  ],
+  "panel_a_arrow_count": 209
+}

@@ -1,0 +1,62 @@
+{
+  "figure": 6,
+  "selected_approved_display_sha256": "6328d98b4841090a7f60392a2f73edb0e239a60d807dfa6c11002714135eca85",
+  "files": [
+    {
+      "source": "paper/fig_data/figure6/01_field.py",
+      "destination": "LRVF/scripts/figure6/build_field.py",
+      "source_sha256": "2c52c0a69471f967217152090b1888e88c48d914c5f1fd015caa0e9e6ff78088",
+      "destination_sha256": "89d74cc2672ef849f2f5375c4250845e4d56ba006e22d06afd6bdda30fab4957",
+      "adaptations": "Portable input/output paths only; UTF-8 CSV output; source scientific algorithms and constants retained."
+    },
+    {
+      "source": "paper/fig_data/figure6_mollweide_equatorial_locator_trial/plot_figure6_mollweide_equatorial_locator.py",
+      "destination": "LRVF/scripts/figure6/plot_figure6.py",
+      "source_sha256": "c30c9a58f607ba37ac64374e01b843de41cf531438bf6ee9bc3cbca324dc6b8c",
+      "destination_sha256": "9e39def9b0184963394ce89ea1707cb24414cb40a9a1f6a444d6e0e9e41a703f",
+      "adaptations": "Portable paths; LRVF_FIGURE6_FIELD override; concise public output filenames. Approved artwork retained."
+    },
+    {
+      "source": "paper/fig_data/figure6/fig4_data.npz",
+      "destination": "reproduction_data/data/figure6/fig4_data.npz",
+      "source_sha256": "ba75856e4905c01f1c7908640ca353e425b5592eb6af2afe6d51e7af35077240",
+      "destination_sha256": "ba75856e4905c01f1c7908640ca353e425b5592eb6af2afe6d51e7af35077240",
+      "size_bytes": 26670092
+    },
+    {
+      "source": "paper/fig_data/figure6/fig6v4_field.npz",
+      "destination": "reproduction_data/data/figure6/fig6v4_field.npz",
+      "source_sha256": "f67f0d928c304f93e2fc3670c74dd5b63ee1d7d6fef52397b917d806c8782176",
+      "destination_sha256": "f67f0d928c304f93e2fc3670c74dd5b63ee1d7d6fef52397b917d806c8782176",
+      "size_bytes": 25975
+    },
+    {
+      "source": "paper/fig_data/figure6/fig6v4_source_data.csv",
+      "destination": "reproduction_data/data/figure6/fig6v4_source_data.csv",
+      "source_sha256": "15b63cba87f18efa5f7451b38d23488c6159057840012e80c32822aea1885ac0",
+      "destination_sha256": "15b63cba87f18efa5f7451b38d23488c6159057840012e80c32822aea1885ac0",
+      "size_bytes": 135054
+    },
+    {
+      "source": "paper/fig_data/figure2/cache/nac_ids.npy",
+      "destination": "reproduction_data/data/figure2/cache/nac_ids.npy",
+      "source_sha256": "b5aaea3d39650884d72937ab36c1a24bb6064e22233d34ba3078465c40bab1eb",
+      "destination_sha256": "b5aaea3d39650884d72937ab36c1a24bb6064e22233d34ba3078465c40bab1eb",
+      "size_bytes": 15989361
+    },
+    {
+      "source": "paper/fig_data/figure6/fig6v4_field.npz",
+      "destination": "LRVF/source_data/figure6/fig6v4_field.npz",
+      "source_sha256": "f67f0d928c304f93e2fc3670c74dd5b63ee1d7d6fef52397b917d806c8782176",
+      "destination_sha256": "f67f0d928c304f93e2fc3670c74dd5b63ee1d7d6fef52397b917d806c8782176",
+      "size_bytes": 25975
+    },
+    {
+      "source": "paper/fig_data/figure6/fig6v4_source_data.csv",
+      "destination": "LRVF/source_data/figure6/fig6v4_source_data.csv",
+      "source_sha256": "15b63cba87f18efa5f7451b38d23488c6159057840012e80c32822aea1885ac0",
+      "destination_sha256": "15b63cba87f18efa5f7451b38d23488c6159057840012e80c32822aea1885ac0",
+      "size_bytes": 135054
+    }
+  ]
+}

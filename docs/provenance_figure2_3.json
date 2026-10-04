@@ -1,0 +1,157 @@
+{
+  "source_path_base": "Project workspace (paths below are relative; ../figure3 is the recovered original analysis project)",
+  "files": [
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/plot_figure2_mollweide_uniform_profile_panelc_no_arrows.py",
+      "destination": "scripts/figure2/plot_figure2.py",
+      "source_sha256": "63b02b19e1e857802b4628af3dc7ea0910e15a32425042f54bbfb2bf75c864cd",
+      "action": "adapted_copy",
+      "adaptation": "Portable paths, optional cache/strip overrides; frozen computations and display preserved.",
+      "destination_sha256": "cffb58152ac9237ed3959477f91787142efd048852d27709f89820a5c80534ee"
+    },
+    {
+      "source": "paper/fig_v2/scripts/plot_figure3_v3.py",
+      "destination": "scripts/figure3/plot_figure3.py",
+      "source_sha256": "48a6415a65452b88f6d0e9aca4767ea451cafa9c49ddcb6946ac3511ee9f4464",
+      "action": "adapted_copy",
+      "adaptation": "Portable paths, optional event-cache override, explicit UTF-8 output; final v3 algorithm preserved.",
+      "destination_sha256": "d8be689f9b0f000919a7ac43eb30ba7a7a6fb5382853aba53f0099fa65fb0d8f"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/density_0p25.npy",
+      "destination": "../reproduction_data/data/figure2/cache/density_0p25.npy",
+      "source_sha256": "22154383949c2fe8267d74436c317a39f38a14c7e6490f461963becd5cd21cbb",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "22154383949c2fe8267d74436c317a39f38a14c7e6490f461963becd5cd21cbb"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/grid_6deg.npz",
+      "destination": "../reproduction_data/data/figure2/cache/grid_6deg.npz",
+      "source_sha256": "6428e3e3569bad91e1353ca5ed70956c41b8cfa5396ef59909a97e087c3e63d4",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "6428e3e3569bad91e1353ca5ed70956c41b8cfa5396ef59909a97e087c3e63d4"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/panelb_dem.npy",
+      "destination": "../reproduction_data/data/figure2/cache/panelb_dem.npy",
+      "source_sha256": "181dbfcb17bf638ba9590cc77e202c0e05dc6c91e37149c12f1c7275c029b69c",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "181dbfcb17bf638ba9590cc77e202c0e05dc6c91e37149c12f1c7275c029b69c"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/events.npz",
+      "destination": "../reproduction_data/data/figure2/cache/events.npz",
+      "source_sha256": "dd66839803576b8cbb5a57541a05abfe101d1a9aa6951e24cd6646d66f41b9ef",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "dd66839803576b8cbb5a57541a05abfe101d1a9aa6951e24cd6646d66f41b9ef"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/nac_crop_0_origin.npy",
+      "destination": "../reproduction_data/data/figure2/cache/nac_crop_0_origin.npy",
+      "source_sha256": "d69d244bdc07016fd93731945124b9f9f9f9cb4a6e2208faf9601d18e30b96d6",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "d69d244bdc07016fd93731945124b9f9f9f9cb4a6e2208faf9601d18e30b96d6"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/nac_crop_0.npy",
+      "destination": "../reproduction_data/data/figure2/cache/nac_crop_0.npy",
+      "source_sha256": "5735cea87398a7375c4dad0a685f82eaad5733a76501f49d5c474ac9e9f30688",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "5735cea87398a7375c4dad0a685f82eaad5733a76501f49d5c474ac9e9f30688"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/figure2_zonal_strip_source_data.csv",
+      "destination": "../reproduction_data/data/figure2/figure2_zonal_strip_source_data.csv",
+      "source_sha256": "77f00b206502196486eba889cdc99022be895fcbcca5e9b00b245a48bd993f61",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "77f00b206502196486eba889cdc99022be895fcbcca5e9b00b245a48bd993f61"
+    },
+    {
+      "source": "paper/fig_data/figure2_mollweide_uniform_profile_panelc_no_arrows_trial/source_data/figure2_zonal_strip_source_data.csv",
+      "destination": "source_data/figure2/figure2_zonal_strip_source_data.csv",
+      "source_sha256": "77f00b206502196486eba889cdc99022be895fcbcca5e9b00b245a48bd993f61",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "77f00b206502196486eba889cdc99022be895fcbcca5e9b00b245a48bd993f61"
+    },
+    {
+      "source": "paper/fig_data/figure3/figure3_event_cache.npz",
+      "destination": "../reproduction_data/data/figure3/figure3_event_cache.npz",
+      "source_sha256": "11a3af95055f346e72421a6a1471bca87d01008575784e9ec852e9a9ab3e0f70",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "11a3af95055f346e72421a6a1471bca87d01008575784e9ec852e9a9ab3e0f70"
+    },
+    {
+      "source": "paper/fig_v2/figure3/figure3_source_data.csv",
+      "destination": "source_data/figure3/figure3_source_data.csv",
+      "source_sha256": "23710fbdbcd741f329483b8df348a28838e0f37124270c217a02eb353974fee9",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "23710fbdbcd741f329483b8df348a28838e0f37124270c217a02eb353974fee9"
+    },
+    {
+      "source": "paper/fig_v2/figure3/figure3_v3_summary.json",
+      "destination": "source_data/figure3/figure3_v3_summary.json",
+      "source_sha256": "c8637366f948ef1cd947bcca0a6f57beb0e91c27911a086e90514f6c8388a3d5",
+      "action": "byte_identical_copy",
+      "adaptation": "No data changes.",
+      "destination_sha256": "c8637366f948ef1cd947bcca0a6f57beb0e91c27911a086e90514f6c8388a3d5"
+    },
+    {
+      "source": "paper/fig_data/figure2/scripts/01_extract.py",
+      "destination": "scripts/figure2/extract_events.py",
+      "source_sha256": "bc86790cb26577bf49b334f2d079f9f21feb51513af084aa18ef068577d8382e",
+      "action": "adapted_copy",
+      "adaptation": "Portable CLI/output paths and direction-only terminology; original bearing/cache arithmetic preserved.",
+      "destination_sha256": "78cd664d4678a5fcf337f9817901c5de3f69515f3ac5b72dc27525994b6f2fc4"
+    },
+    {
+      "source": "paper/fig_data/figure2/scripts/02_grid_stats.py",
+      "destination": "scripts/figure2/grid_statistics.py",
+      "source_sha256": "88c07e56ba0591dcb9c0f9726c1c1a3d72f7964976f9ec819a60b18f0f0fb0e0",
+      "action": "adapted_copy",
+      "adaptation": "Portable CLI/output paths; curated production 6-degree grid only; original arithmetic preserved.",
+      "destination_sha256": "baa3dec110542f443f935b598e576f27b9bf44fefa62a9528bbb0c024253d336"
+    },
+    {
+      "source": "../figure3/plot_figure3.py",
+      "destination": "scripts/figure3/build_event_cache.py",
+      "source_sha256": "e52cda950d33b1fdf938702758ca250f1970f6ca97788699adbf704e615fddc1",
+      "action": "adapted_copy",
+      "adaptation": "Extract only strict SHP/DBF cache reader from external original base; excludes legacy plotting/bootstrap.",
+      "destination_sha256": "9427d1c77f1254b7431a736b4e98d78a5d25823ce1422c5782d76417b4e300c4"
+    },
+    {
+      "source": "paper/fig_v2/scripts/plot_figure2_v3.py",
+      "destination": "scripts/figure2/prepare_zonal_strip.py",
+      "source_sha256": "a763b4e55f9a246fa9a1fa55720fc19db3d8455e2c263bd4490601196597609e",
+      "action": "adapted_copy",
+      "adaptation": "Extract original strip computation and serialization; no legacy Robinson plotting dependency.",
+      "destination_sha256": "e2e5c3dff60b49f30d72567f44c1ec7e48ae9de519a556d0d3e2466bdb2c29d2"
+    },
+    {
+      "source": "paper/fig_data/figure2/scripts/06_panel_b.py",
+      "destination": "scripts/figure2/prepare_dem_crop.py",
+      "source_sha256": "2d0f88445110478b09d9248cb309d866f6022b5f05cafcabd5b789b0e650383f",
+      "action": "adapted_copy",
+      "adaptation": "Retain original regional DEM extraction; omit obsolete prototype display.",
+      "destination_sha256": "c15831115924c602cb1216bc41dbf0b6f815fa07364d5e3d9165a2ccc237dafc"
+    },
+    {
+      "source": "paper/fig_data/figure2/scripts/07_panel_c_fetch.py",
+      "destination": "scripts/figure2/prepare_nac_crop.py",
+      "source_sha256": "69d7b927a093bb7460d466dcc41427a082558f405e473b06136c5976a9e6190c",
+      "action": "adapted_copy",
+      "adaptation": "Retain selected first crop; omit unused candidate crops.",
+      "destination_sha256": "f4595748f50e3f2d7babfc5cd4bf5f39cc7312a5eaa167ab8c7169fd66556aa1"
+    }
+  ]
+}
